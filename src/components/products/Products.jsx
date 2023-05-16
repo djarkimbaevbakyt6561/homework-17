@@ -29,7 +29,7 @@ const Products = () => {
       {products.map((el) => {
         return (
           <Link
-            to={`${el.id}/details`}
+            to={`/homework-17${el.id}/details`}
             style={{
               display: 'flex',
               flexDirection: 'column',

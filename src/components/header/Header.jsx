@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Container>
       <NavLink
-        to="/"
+        to="/homework-17/"
         style={({ isActive }) => {
           return {
             color: isActive ? '#202020' : 'white',
@@ -18,7 +18,7 @@ const Header = () => {
       </NavLink>
       <NavList>
         <NavLink
-          to="/products"
+          to="/homework-17/products"
           style={({ isActive }) => {
             return {
               color: isActive ? '#202020' : 'white',
@@ -29,7 +29,7 @@ const Header = () => {
           Products
         </NavLink>
         <NavLink
-          to="/myCart"
+          to="/homework-17/myCart"
           style={({ isActive }) => {
             return {
               color: isActive ? '#202020' : 'white',
@@ -40,7 +40,7 @@ const Header = () => {
           My Cart
         </NavLink>
         <NavLink
-          to="/myOrders"
+          to="/homework-17/myOrders"
           style={({ isActive }) => {
             return {
               color: isActive ? '#202020' : 'white',
